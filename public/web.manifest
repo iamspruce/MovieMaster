@@ -28,8 +28,8 @@
   ],
   "screenshots": [
     {
-      "src": "screenshot1.png",
-      "type": "image/png",
+      "src": "screenshot1.jpg",
+      "type": "image/jpg",
       "sizes": "1080x1920",
       "form_factor": "narrow"
     },
@@ -43,7 +43,7 @@
       "src": "screenshot3.jpg",
       "type": "image/jpg",
       "sizes": "1080x1920",
-      "form_factor": "narrow"
+      "form_factor": "wide"
     }
   ]
 }
