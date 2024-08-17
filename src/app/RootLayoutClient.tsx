@@ -1,5 +1,3 @@
-// src/app/RootLayoutClient.tsx
-
 "use client";
 
 import React from "react";
