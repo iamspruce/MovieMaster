@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 export default function RootLayoutClient({
@@ -27,11 +26,7 @@ export default function RootLayoutClient({
 
   return (
     <div className=" text-white flex flex-col">
-      <div className="container mx-auto px-4 max-w-[1024px]">
-        {children}
-
-        <Toaster />
-      </div>
+      <div className="container mx-auto px-4 max-w-[1024px]">{children}</div>
     </div>
   );
 }

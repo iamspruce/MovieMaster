@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-const Offline: React.FC = () => {
+const Fallback: React.FC = () => {
   const [isOnline, setIsOnline] = useState(false);
   const router = useRouter();
 
@@ -37,7 +37,7 @@ const Offline: React.FC = () => {
   };
 
   return (
-    <div className="flex mx-auto h-screen max-w-[500px] w-full flex-col items-center justify-center h-screen bg-foreground text-black p-6 mt-12 text-white">
+    <div className="flex mx-auto h-screen max-w-[500px] w-full flex-col items-center justify-center h-screen bg-foreground p-6 mt-12 text-white">
       <h1 className="text-3xl font-bold mb-6">
         {isOnline ? "You are online!" : "You are offline"}
       </h1>
@@ -68,4 +68,4 @@ const Offline: React.FC = () => {
   );
 };
 
-export default Offline;
+export default Fallback;
